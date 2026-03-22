@@ -1,7 +1,6 @@
 .header {
-  width: 100vw;
+  width: 100%;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-weight: 500;
@@ -33,7 +32,7 @@
       display: flex;
       margin: 0 10px;
       text-decoration: none;
-      color: #060b35;
+      color: $main-text-color;
       height: 60px;
       align-items: center;
       transition: linear 300ms;
